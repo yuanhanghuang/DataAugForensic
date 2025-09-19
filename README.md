@@ -9,8 +9,7 @@ Deep learning-based forensic techniques have emerged as the leading approach for
 # Dataset
 This repository provides two self-constructed forgery datasets, created with deep learning–based inpainting methods and used in our paper. They are named [IA-DO](https://pan.quark.cn/s/6dee37235207) and [PP-DO](https://pan.quark.cn/s/6dee37235207), with their real (unaltered) version referred to as [DO](https://pan.quark.cn/s/763df108d641).
 
-Below, we provide some representative examples. As illustrated, the manipulated regions blend seamlessly with the surrounding areas, exhibiting natural transitions in color, lighting, texture, and structure. Additionally, the forged images predominantly feature intricate textured backgrounds, which significantly complicate forgery localization.
-![Dataset](https://github.com/yuanhanghuang/DataAugForensic/blob/main/Images/Deep_inpainting.jpg)
+Below, we provide some representative examples. As illustrated, the manipulated regions blend seamlessly with the surrounding areas, exhibiting natural transitions in color, lighting, texture, and structure. Additionally, the forged images predominantly feature intricate textured backgrounds, which significantly complicate forgery localization. ![Dataset](https://github.com/yuanhanghuang/DataAugForensic/blob/main/Images/Deep_inpainting.jpg)
 
 # Note
 If you have any question, please contact me.(huangyh375@mail2.sysu.edu.cn)
