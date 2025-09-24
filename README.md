@@ -26,4 +26,4 @@ This repository provides two self-constructed forgery datasets, created with dee
 Below, we provide some representative examples. As illustrated, the manipulated regions blend seamlessly with the surrounding areas, exhibiting natural transitions in color, lighting, texture, and structure. Additionally, the forged images predominantly feature intricate textured backgrounds, which significantly complicate forgery localization. ![Dataset](https://github.com/yuanhanghuang/DataAugForensic/blob/main/Images/Deep_inpainting.jpg)
 
 # Note
-If you have any question, please contact me.(huangyh375@mail2.sysu.edu.cn)
+If you have any questions, please feel free to contact me at huangyh375@mail2.sysu.edu.cn
