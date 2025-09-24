@@ -2,7 +2,9 @@
 Official implementation of our paper “A Forensic Framework with Diverse Data Generation for Generalizable Forgery Localization.”
 
 # Introduction
+<p align="justify">
 Deep learning-based forensic techniques have emerged as the leading approach for image forgery localization. However, many existing methods struggle with overfitting to the training data, which limits their generalization performance and real-world applicability. To overcome this challenge, we propose a novel forensic framework that incorporates an advanced data augmentation technique. The framework consists of two key components: a generator and a detector. The generator challenges the detector’s learned distribution under constraints of diversity and consistency, ensuring that the generated data diverges from the source domain while maintaining statistical differences related to tampering. The detector, in turn, captures tampering traces from three critical aspects of the tampered image: long-range dependency information, RGB-noise fusion information, and boundary artifacts, resulting in a more comprehensive detection process. By alternating the optimization of the generator and detector, the framework fosters mutual reinforcement, promoting diverse data generation and expanding the distributional coverage, ultimately improving performance. Extensive experiments demonstrate that the proposed method significantly surpasses state-of-the-art approaches in both generalization and robustness, with numerous ablation studies further validating the soundness of the model design. ![Overview](https://github.com/yuanhanghuang/DataAugForensic/blob/main/Images/overall%20view.jpg)
+</p>
 
 # Usage
 ## pretrained model
