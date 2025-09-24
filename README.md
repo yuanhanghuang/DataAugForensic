@@ -6,17 +6,19 @@ Deep learning-based forensic techniques have emerged as the leading approach for
 
 # Usage
 ## pretrained model
-We provide the model weights trained on the CASIAv2 dataset. Simply download the file and place it in the './models' folder:  
-```bash
+We provide the model weight trained on the CASIAv2 dataset. You can obtain the weight with the following command: 
+```
 cd DataAugForensic
+mkdir -p ./models
 wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.quark.cn/s/1e64222b9ac6
-
-We also provide some sample images along with their corresponding prediction results for reference, which can be found in the "./sample_image" and "./save_path" folders, respectively. 
-
+```
+We also provide some sample images along with their corresponding prediction results for reference, which can be found in the **./sample_image** and **./save_path** folders, respectively. 
+## Run on Custom Dataset
 If you would like to run predictions on your own dataset, please update the dataset path using "--test_path" and specify the output directory with "--save_path":
-```bash
+```
 --test_path ./your_dataset \
 --save_path ./prediction_results
+```
 
 # Dataset
 This repository provides two self-constructed forgery datasets, created with deep learning–based inpainting methods and used in our paper. They are named [IA-DO](https://pan.quark.cn/s/6dee37235207) and [PP-DO](https://pan.quark.cn/s/6dee37235207), with their real (untampered) version referred to as [DO](https://pan.quark.cn/s/763df108d641).
