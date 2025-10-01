@@ -14,9 +14,9 @@ cd DataAugForensic
 mkdir -p ./models
 wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.quark.cn/s/1e64222b9ac6
 ```
-We also provide some sample images along with their corresponding prediction results for reference, which can be found in the '''./sample_image''' and '''./save_path''' folders, respectively. 
+We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
 ## Run on Custom Dataset
-If you would like to run predictions on your own dataset, please update the dataset path using '''--test_path''' and specify the output directory with '''--save_path''':
+If you would like to run predictions on your own dataset, please update the dataset path using '''--test_path''' and specify the output directory with ```--save_path```:
 ```
 --test_path ./your_dataset \
 --save_path ./prediction_results
