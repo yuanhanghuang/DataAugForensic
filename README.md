@@ -12,7 +12,7 @@ We provide the model weight trained on the CASIAv2 dataset. You can obtain the w
 ```
 cd DataAugForensic
 mkdir -p ./models
-wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.quark.cn/s/1e64222b9ac6
+wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.quark.cn/s/bae7d17f3498
 ```
 We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
 ## Run on Custom Dataset
