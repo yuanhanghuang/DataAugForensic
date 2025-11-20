@@ -8,11 +8,11 @@ Deep learning-based forensic techniques have emerged as the leading approach for
 
 # Usage
 ## pretrained model
-We provide the model weight trained on the CASIAv2 dataset. You can obtain the weight with the following command: 
+We provide the [model weight(code: ckrw)](https://pan.baidu.com/s/1xRdmSrRF3e-46s7-8qmt9g?pwd=ckrw) trained on the CASIAv2 dataset. You can obtain the weight with the following command: 
 ```
 cd DataAugForensic
 mkdir -p ./models
-wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.quark.cn/s/bae7d17f3498
+wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.baidu.com/s/1xRdmSrRF3e-46s7-8qmt9g?pwd=ckrw
 ```
 We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
 ## Run on Custom Dataset
@@ -29,3 +29,15 @@ Below, we provide some representative examples. As illustrated, the manipulated 
 
 # Note
 If you have any questions, please feel free to contact me at huangyh375@mail2.sysu.edu.cn
+
+# Citation
+If you find our work useful, please consider citing our paper using the following BibTeX:
+```
+@article{huang2025forensic,
+  title={A Forensic Framework with Diverse Data Generation for Generalizable Forgery Localization},
+  author={Huang, Yuanhang and Luo, Weiqi and Cao, Xiaochun and Huang, Jiwu},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2025},
+  publisher={IEEE}
+}
+```
