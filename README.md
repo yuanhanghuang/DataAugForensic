@@ -33,11 +33,16 @@ If you have any questions, please feel free to contact me at huangyh375@mail2.sy
 # Citation
 If you find our work useful, please consider citing our paper using the following BibTeX:
 ```
-@article{huang2025forensic,
-  title={A Forensic Framework with Diverse Data Generation for Generalizable Forgery Localization},
-  author={Huang, Yuanhang and Luo, Weiqi and Cao, Xiaochun and Huang, Jiwu},
-  journal={IEEE Transactions on Information Forensics and Security},
-  year={2025},
-  publisher={IEEE}
+@article{DBLP:journals/tifs/HuangLCH25,
+  author       = {Yuanhang Huang and
+                  Weiqi Luo and
+                  Xiaochun Cao and
+                  Jiwu Huang},
+  title        = {A Forensic Framework With Diverse Data Generation for Generalizable
+                  Forgery Localization},
+  journal      = {{IEEE} Transactions on Information Forensics and Security},
+  volume       = {20},
+  pages        = {9732--9745},
+  year         = {2025}
 }
 ```
