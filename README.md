@@ -15,6 +15,10 @@ mkdir -p ./models
 wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.baidu.com/s/1xRdmSrRF3e-46s7-8qmt9g?pwd=ckrw
 ```
 We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
+## Environment
+```
+timm==0.9.10, kornia==0.7.1, pytorch==1.12.0, torchvision==0.13.0, numpy==1.25.0, opencv-python==4.8.0.74, tensorboard==2.13.0, visdom==0.2.4, tqdm==4.65.0    
+```
 ## Run Command
 ```
 CUDA_VISIBLE_DEVICES=1 torchrun --standalone --nproc_per_node=1 main.py --evaluation --is_distributed
