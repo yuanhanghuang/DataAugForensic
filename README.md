@@ -15,6 +15,10 @@ mkdir -p ./models
 wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.baidu.com/s/1xRdmSrRF3e-46s7-8qmt9g?pwd=ckrw
 ```
 We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
+## Run Command
+```
+CUDA_VISIBLE_DEVICES=1 torchrun --standalone --nproc_per_node=1 main.py --evaluation --is_distributed
+```
 ## Run on Custom Dataset
 If you would like to run predictions on your own dataset, please update the dataset path using ```--test_path``` and specify the output directory with ```--save_path```:
 ```
