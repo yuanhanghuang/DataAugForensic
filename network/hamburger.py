@@ -156,7 +156,7 @@ class NMF2D(_MatrixDecomposition2DBase):
         bases = F.normalize(bases, dim=1) # column wise normalization i.e HW dim
 
         return bases
-    
+
     @torch.no_grad()
     def local_setp(self, x, bases, coef):
         '''
