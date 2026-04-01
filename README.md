@@ -17,15 +17,15 @@ wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.baidu.com/s/1xRdmS
 We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
 ## Environment
 ```
-conda create -n segmentation python=3.9.17
-conda activate segmentation
+conda create -n ForeAug python=3.9.17
+conda activate ForeAug
 ```
 The detailed environment is provided in ```environment.txt```. Please ```pip install``` the packages listed in it.
 ## Run Command
 ```
 CUDA_VISIBLE_DEVICES=1 torchrun --standalone --nproc_per_node=1 main.py --evaluation --is_distributed
 ```
-We run the code on a single GPU with DDP enabled. If you encounter any issues, you can disable distributed mode by removing ```--is_distributed```.
+This command runs on a single GPU with DDP enabled. If you encounter any problems, you can disable distributed mode by removing ```--is_distributed```.
 ## Run on Custom Dataset
 If you would like to run predictions on your own dataset, please update the dataset path using ```--test_path``` and specify the output directory with ```--save_path```:
 ```
