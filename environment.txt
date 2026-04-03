@@ -7,4 +7,5 @@ opencv-python 4.8.0.74
 visdom 0.2.4                      
 tensorboard 2.13.0                      
 tqdm 4.65.0                 
-ttach 0.0.3                             
+ttach 0.0.3              
+einops 0.7.0
