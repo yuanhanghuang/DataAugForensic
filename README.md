@@ -17,8 +17,8 @@ wget -O ./models/swa_model_trained_on_CASIAv2.tar https://pan.baidu.com/s/1xRdmS
 We also provide some sample images along with their corresponding prediction results for reference, which can be found in the ```./sample_image``` and ```./save_path``` folders, respectively. 
 ## Environment
 ```
-conda create -n ForeAug python=3.9.17
-conda activate ForeAug
+conda create -n DataAugForensic python=3.9.17
+conda activate DataAugForensic
 ```
 The detailed environment is provided in ```environment.txt```. Please ```pip install``` the packages listed in it.
 ## Run Command
