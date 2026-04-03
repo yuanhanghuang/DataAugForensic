@@ -20,7 +20,7 @@ We also provide some sample images along with their corresponding prediction res
 conda create -n DataAugForensic python=3.9.17
 conda activate DataAugForensic
 ```
-The detailed environment is provided in ```environment.txt```. Please ```conda install``` the packages listed in it.
+The required packages are listed in ```environment.txt```. Please use ```conda install``` to install the necessary dependencies and set up the environment.
 ## Run Command
 ```
 CUDA_VISIBLE_DEVICES=1 torchrun --standalone --nproc_per_node=1 main.py --evaluation --is_distributed
